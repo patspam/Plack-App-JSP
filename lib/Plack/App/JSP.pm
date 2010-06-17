@@ -21,8 +21,6 @@ sub call {
 
 1;
 
-__END__
-
 =head1 SYNOPSIS
 
  # app.psgi - looks pretty normal
@@ -44,5 +42,19 @@ __END__
         })(5)
     );
  });
+
+=head1 DESCRIPTION
+
+Use Javascript to write a PSGI/L<Plack> app
+
+=head1 ATTRIBUTES
+
+=head2 js
+
+Your Javascript
+
+=head1 SEE ALSO
+
+L<JSP>, L<Plack>
 
 =cut
